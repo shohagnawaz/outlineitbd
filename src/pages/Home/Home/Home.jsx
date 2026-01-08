@@ -1,10 +1,13 @@
 import Banner from "../Banner/Banner";
+import Diff from "../Diff/Diff";
+import ThreeDhover from "../ThreeDhover/ThreeDhover";
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <h2>This is home page</h2>
+            <Diff></Diff>
+            <ThreeDhover></ThreeDhover>
         </div>
     );
 };
